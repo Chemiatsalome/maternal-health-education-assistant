@@ -26,3 +26,12 @@ This project is a Flask-based application that uses the Together AI model to pro
    git clone https://github.com/username/maternal-health-education-assistant.git
    cd maternal-health-education-assistant
 
+# Packages needed
+
+pip install flask together
+
+# Set Up Your Environment Variable
+
+To keep your API key secure, use an environment variable rather than hardcoding it into your application. Create a .env file in your project directory and add your API key:
+
+

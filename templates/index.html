@@ -37,6 +37,13 @@
         <form method="POST">
             <label for="question">Type your question about maternal health:</label><br>
             <input type="text" id="question" name="question" placeholder="Enter your question here" required>
+            <br>
+            <label for="language">Select language:</label>
+            <select id="language" name="language">
+                <option value="en">English</option>
+                <option value="sw">Swahili</option>
+            </select>
+            <br>
             <input type="submit" value="Get Answer">
         </form>
         {% if answer %}
